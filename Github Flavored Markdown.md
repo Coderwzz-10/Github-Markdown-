@@ -63,7 +63,7 @@ cout<<a<<endl;
 
 6、**图片**  
 \![失败时替换文本](Url title)  
-![mj](/Link/mj.png)
+![mj](https://github.com/Coderwzz-10/Github-Markdown-/blob/master/Link/mj.png)
 
 7、**链接**  
 7.1 外部Url：
