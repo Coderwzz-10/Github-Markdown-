@@ -1,7 +1,7 @@
->Markdown是一种重要的写文档的语法，在这里简单总结了Github上面Markdown的一些常用的基础语法。
+>Markdown是一种重要的写文档的语法，在这里简单总结了Github上面Markdown的一些常用基础语法。
 
 1、**标题**  
-Markdown总共有六级标题，分别是  
+Markdown总共有六级标题，写法分别是  
 \# 一级标题  
 \## 二级标题  
 \### 三级标题  
@@ -90,7 +90,11 @@ cout<<a<<endl;
 ~~文字~~
 
 7、**图片**  
-\![失败时替换文本](Url title)  
+\![失败时替换文本](image Url)  
+
+示例：  
+\!\[mj\](https://github.com/Coderwzz-10/Github-Markdown-/blob/master/Link/mj.png)  
+图片显示如下：  
 ![mj](https://github.com/Coderwzz-10/Github-Markdown-/blob/master/Link/mj.png)
 
 8、**链接**  
