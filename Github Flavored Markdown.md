@@ -63,6 +63,7 @@ cout<<a<<endl;
 
 6、**图片**  
 \![失败时替换文本](Url title)  
+![mj](/Link/mj.png)
 
 7、**链接**  
 7.1 外部Url：
