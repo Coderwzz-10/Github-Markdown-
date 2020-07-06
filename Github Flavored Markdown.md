@@ -1,6 +1,6 @@
 1、**标题**
 
-#一级标题
+# 一级标题
 ## 二级标题
 ### 三级标题
 #### 四级标题
@@ -72,7 +72,40 @@ cout<<a<<endl;
 [bilibili](https://www.bilibili.com/)
 
 7.2 仓库内的Url：  
-\[](/ /)
+\[我的链接](/Link/me.md)  
+[我的链接](/Link/me.md)
+
+8、**列表**  
+8.1 无序列表  
+输入\* listitem即创建无序的列表,\'\*\'也能用\'\-\'或\'\+\'代替  
+* Red
+* Blue
+* Yellow
+
+8.2 有序列表  
+输入1. listitem即创建有序的列表  
+1. Red
+2. Blue
+3. Yellow
+
+8.3  复选框  
+未完成的为\- [ ] incompleted task   
+完成的为\- [x] completed task  
+- [ ] incompleted task  
+- [x] completed task
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+
 
 
 
