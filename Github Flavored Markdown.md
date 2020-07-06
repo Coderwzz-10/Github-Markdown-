@@ -1,5 +1,15 @@
-1、**标题**
+>Markdown是一种重要的写文档的语法，在这里简单总结了Github上面Markdown的一些常用的基础语法。
 
+1、**标题**  
+Markdown总共有六级标题，分别是  
+\# 一级标题  
+\## 二级标题  
+\### 三级标题  
+\#### 四级标题  
+\##### 五级标题  
+\###### 六级标题  
+
+**效果：**  
 # 一级标题
 ## 二级标题
 ### 三级标题
@@ -13,7 +23,25 @@
 
 第一行<br>第二行<br>第三行
 
-3、**文本块**
+3、**缩进**  
+3.1  缩进一个空格  
+一般在要缩进的元素前面加上\&ensp;或\&nbsp;  
+3.2  缩进两个空格  
+加上\&emsp;  
+
+示例：  
+  no indentation  
+\&ensp;one blank  
+\&emsp;two blanks
+
+no indentation  
+&ensp;one blank  
+&emsp;two blanks
+
+
+
+
+4、**文本块**
 
 （1）常用文本块语法：使用反引号`，在输入文本的开头和结尾各连续三个。
 
@@ -47,11 +75,11 @@ cout<<a<<endl;
 }
 ```
 
-4、**文字高亮**  
+5、**文字高亮**  
 针对行内文字，在文字前后加上一对反引号\`。  
 `热度` `点击` `点赞`
 
-5、字体
+6、字体
 加粗用\*\*文字\*\*  或\_\_文字\_\_  
 **文字**
 
@@ -61,50 +89,68 @@ cout<<a<<endl;
 删除线用\~\~文字\~\~  
 ~~文字~~
 
-6、**图片**  
+7、**图片**  
 \![失败时替换文本](Url title)  
 ![mj](https://github.com/Coderwzz-10/Github-Markdown-/blob/master/Link/mj.png)
 
-7、**链接**  
-7.1 外部Url：
+8、**链接**  
+8.1 外部Url：
 
 \[名称](Url)  
 \[bilibili](https://www.bilibili.com/)  
 [bilibili](https://www.bilibili.com/)
 
-7.2 仓库内的Url：  
+8.2 仓库内的Url：  
 \[我的链接](/Link/me.md)  
 [我的链接](/Link/me.md)
 
-8、**列表**  
-8.1 无序列表  
+9、**列表**  
+9.1 无序列表  
 输入\* listitem即创建无序的列表,\'\*\'也能用\'\-\'或\'\+\'代替  
 * Red
 * Blue
 * Yellow
 
-8.2 有序列表  
+9.2 有序列表  
 输入1. listitem即创建有序的列表  
 1. Red
 2. Blue
 3. Yellow
 
-8.3  复选框  
+9.3  复选框  
 未完成的为\- [ ] incompleted task   
 完成的为\- [x] completed task  
 - [ ] incompleted task  
 - [x] completed task
 
+10、**表格**  
+第一行输入表头，第二行为对齐方式，'-:'为右对齐，':-:'为居中对齐;':-'为左对齐；无对齐时就为'-'。  
+10.1 无对齐方式  
+输入：  
+\| First Header  \| Second Header \|  
+\|-|-|  
+\| messi  \| Barca  \|  
+\| cristiano  \| Juven  \|  
+预览：  
 | First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|-|-|
+| messi  | Barca  |
+| cristiano  | Juven  |
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+10.2 对齐方式  
+输入：  
+\| Left-Aligned  \| Center Aligned  \| Right Aligned |  
+\|:-\|:-:\|-:\|  
+\|messi          \|is               \|Argentine      \|  
+\|cristiano      \|is               \|Portuguese     \|  
+预览：  
+| Left-Aligned | Center Aligned | Right Aligned |
+|:-|:-:|-:|
+|messi         |is              |Argentine      |
+|cristiano     |is              |Portuguese     |
+
+
+
 
 
 
